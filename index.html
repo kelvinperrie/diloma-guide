@@ -39,6 +39,22 @@
             <div class="snail-container">
                 <div class="common-name" data-bind="text:commonName"></div>
                 <div class="scientific-name" >(<span data-bind="text:scientificName"></span>)</div>
+                <div class="details-list">
+                    <ul>
+                        <!-- ko foreach: details -->
+                        <li>
+                            <span data-bind="html: text"></span>
+                            <!-- ko if: $data["references"] -->
+                                <sup>
+                                    <!-- ko foreach: references -->
+                                        <span data-bind="text:$data"></span>
+                                    <!-- /ko -->
+                                </sup>
+                            <!-- /ko -->
+                        </li>
+                        <!-- /ko -->
+                    </ul>
+                </div>
             </div>
             <!-- /ko -->
         </div>

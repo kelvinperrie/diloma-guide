@@ -16,7 +16,7 @@ var snailData = [
         scientificName : "Diloma nigerrimum",
         details : [
             { text : "Spherical shaped. 18mm average, 25mm max", references : [1] },
-            { text : "The spiral lines going from front to back are often very faded. Growth lines running across the shell are often well developed. ", references : [1] }
+            { text : "The spiral lines going from front to back are often very faded. Growth lines running across the shell are often well developed. ", references : [2] }
 
         ],
         images : [],

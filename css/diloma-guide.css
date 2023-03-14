@@ -112,6 +112,22 @@ h1 {
 .matched-results-title {
     font-size: 1.1em;
 }
+
+
+.snail-container {
+    display: inline-block;
+    margin: 0.3em 0.2em;
+    width: 300px;
+    height: 500px;
+    vertical-align: top;
+    background-color: #FFF4E8;
+    color: #37B;
+    padding: 0.3em;
+    position: relative;
+    /* border: 1px solid #AC3B61; */
+    border-radius: 5px;;
+}
+
 .crab-container {
     display: inline-block;
     margin: 0.3em 0.2em;
