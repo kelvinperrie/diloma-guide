@@ -86,6 +86,18 @@ var FilterModel = function(filter, pageModel) {
     }
 }
 
+var SnailModel = function(snailData) {
+    var self = this;
+    self.commonName = snailData.commonName || "No common name";      
+    self.scientificName = snailData.scientificName;                  
+    self.images = snailData.images;                                  
+    self.natureWatchLink = snailData.natureWatchLink;                
+    self.details = snailData.details;
+    self.currentImageIndex = ko.observable(0);                  
+    self.references = snailData.references || [];                    
+
+}
+
 // object to hold data that relates to the crab and the displaying of the crab
 var CrabModel = function(crab) {
     var self = this;
@@ -161,6 +173,22 @@ var CrabModel = function(crab) {
 }
 
 var PageModel = function() {
+    var self = this;
+    self.snailData = ko.observableArray();
+
+    // setup / load all data into our models
+    self.initialize = function() {
+        for(var i = 0; i < snailData.length; i++) {
+            // don't include crabs marked as inactive (active : false)
+            if(!snailData[i].hasOwnProperty('active') || snailData[i].active) {
+                self.snailData.push(new SnailModel(snailData[i]));
+            }
+        }
+    }
+    self.initialize();
+}
+
+var PageModel1 = function() {
 
     var self = this;
     self.crabData = ko.observableArray();                   // array of crab data
