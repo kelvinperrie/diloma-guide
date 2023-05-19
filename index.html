@@ -60,6 +60,13 @@
                         <!-- /ko -->
                     </ul>
                 </div>
+                <div class="references">
+                <!-- ko foreach: references -->
+                    <div class="reference">
+                        <span  data-bind="text: id"></span>. <span data-bind="text: detail"></span>
+                    </div>
+                <!-- /ko -->
+                </div>
             </div>
             <!-- /ko -->
         </div>

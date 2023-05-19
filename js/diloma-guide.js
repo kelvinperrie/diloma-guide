@@ -95,7 +95,7 @@ var SnailModel = function(snailData) {
     self.details = snailData.details;
     self.currentImageIndex = ko.observable(0);                  
     self.references = snailData.references || [];                    
-
+    console.log(self.references)
 }
 
 // object to hold data that relates to the crab and the displaying of the crab
