@@ -56,5 +56,21 @@ var snailData = [
             { id: 1, detail: "Carson, Sally & Morris (2022) Rod The New Zealand Seashore Guide (pp168). Potton & Burton" },
             { id: 2, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" }
         ]
+    },
+    {
+        commonName : "Knobbed Top Shell",
+        scientificName : "Diloma bicanaliculatum",
+        details : [
+            { text : "Max height of 20mm", references : [1] },
+            { text : "Grey or a dull black. Can have yellow in between the bumps and appear chequered", references : [1] },
+            { text : "Ridges of bumps/knobs run around the shell following the spiral lines. The only top shell to have these bumps.", references : [] },
+            { text : "Lives on rocky shores all through New Zealand. ", references : [2] },
+            { text : "Found in the mid to high tidal zones. ", references : [] }
+        ],
+        images : [],
+        references : [
+            { id: 1, detail: "Carson, Sally & Morris (2022) Rod The New Zealand Seashore Guide (pp166). Potton & Burton" },
+            { id: 2, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" }
+        ]
     }
 ]
