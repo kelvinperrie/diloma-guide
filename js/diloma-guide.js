@@ -95,7 +95,28 @@ var SnailModel = function(snailData) {
     self.details = snailData.details;
     self.currentImageIndex = ko.observable(0);                  
     self.references = snailData.references || [];                    
-    console.log(self.references)
+    
+    self.currentImagePath = ko.computed(function() {
+        return "images/photos/" + self.images[self.currentImageIndex()].file;
+    });
+
+    self.moveToNextImage = function() {
+        let next = self.currentImageIndex() + 1;
+        if(next >= self.images.length) {
+            self.currentImageIndex(0);
+        } else {
+            self.currentImageIndex(next);
+        }
+    }
+
+    self.moveToPreviousImage = function() {
+        let previous = self.currentImageIndex() - 1;
+        if(previous < 0) {
+            self.currentImageIndex(self.images.length -1);
+        } else {
+            self.currentImageIndex(previous);
+        }
+    }
 }
 
 // object to hold data that relates to the crab and the displaying of the crab

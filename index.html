@@ -43,7 +43,21 @@
             <!-- ko foreach: snailData -->
             <div class="snail-container">
                 <div class="common-name" data-bind="text:commonName"></div>
-                <div class="scientific-name" >(<span data-bind="text:scientificName"></span>)</div>
+                <div class="scientific-name" ><span data-bind="text:scientificName"></span></div>
+                <div class="image-container">
+                    <div class="image-count-display" title="click image to show next picture" data-bind="text: images.length, visible: images.length > 1">3</div>
+                    <img class="snail-photo" data-bind="attr: { src : currentImagePath }" alt="snail picture" />
+                    <div class="previous-image-trigger" data-bind="click : function() { moveToPreviousImage(); }" title="click for previous image">
+                        <span class="material-icons">
+                            keyboard_arrow_left
+                        </span>
+                    </div>
+                    <div class="next-image-trigger" data-bind="click : function() { moveToNextImage(); }" title="click for next image">
+                        <span class="material-icons">
+                            keyboard_arrow_right
+                        </span>
+                    </div>
+                </div>
                 <div class="details-list">
                     <ul>
                         <!-- ko foreach: details -->
