@@ -60,7 +60,7 @@ var snailData = [
         notes: "Look for noticeable spiral ridges and weak growth lines.",
         details : [
             { text : "Max height of 25mm", references : [1] },
-            { text : "Black, can have a greenish tinge. Flip the snail upside-down to see a green edge to the shell opening.", references : [1] },
+            { text : "Black, can have a greenish tinge. May have a green lip around the shell opening.", references : [1] },
             { text : "Spiral ridges are well developed. Growth lines often faded. ", references : [] },
             { text : "Lives on rocky shores all through New Zealand. ", references : [2] },
             { text : "Found at what tide zone????. ", references : [] }
@@ -145,6 +145,48 @@ var snailData = [
             { id: 1, detail: "Carson, Sally & Morris, Rod (2022) The New Zealand Seashore Guide (pp167). Potton & Burton" },
             { id: 2, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" },
             { id: 3, detail: "Morley, Margaret S. (2004) Seashells of New Zealand (pp82). New Holland Publishers NZ Ltd" }
+        ]
+    },
+    {
+        commonName : "Cat's Eye Snail",
+        scientificName : "Lunella smaragda",
+        notes: "They grow a lot larger than other snails listed here. Look for the green coloured 'trap-door' blocking the opening.",
+        details : [
+            { text : "Max height of 70mm", references : [1] },
+            { text : "Black, may have dark green showing through the black. The opening is blocked by a green/white peice of shell.", references : [] },
+            { text : "Young snails can have a couple of really strong spiral ridges.", references : [] },
+            { text : "Lives across a wide range of areas (rocky and softer) all throughout NZ.", references : [1] },
+            { text : "Found in the low to mid tidal zones.", references : [1] }
+        ],
+        images : [ 
+            { file : "cats-eye1.jpg" },
+            { file : "cats-eye2.jpg" },
+            { file : "cats-eye3.jpg" },
+            { file : "cats-eye4.jpg" }
+        ],
+        references : [
+            { id: 1, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" }
+        ]
+    },
+    {
+        commonName : "Black Nerita",
+        scientificName : "Nerita melanotragus",
+        notes: "Look for the end of the spiral not being centered (it's towards the back of the shell).",
+        details : [
+            { text : "Max height of 30mm", references : [1] },
+            { text : "A deep black.", references : [] },
+            { text : "Pretty smooth - both spiral ridges and growth lines are not deep. The end of the spiral sits towards the back of the shell rather than in the center like the other snails listed here.", references : [] },
+            { text : "Lives in rocky areas in northern NZ (IS THIS TRUE??????).", references : [1] },
+            { text : "Found in the mid to high tidal zones.", references : [1] }
+        ],
+        images : [ 
+            { file : "nerita1.jpg" },
+            { file : "nerita2.jpg" },
+            { file : "nerita3.jpg" },
+            { file : "nerita4.jpg" }
+        ],
+        references : [
+            { id: 1, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" }
         ]
     }
 ]
