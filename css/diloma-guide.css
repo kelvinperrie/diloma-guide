@@ -128,8 +128,8 @@ h1 {
 
 
 .zoom-popup {
-
-    
+    width: 95%;
+    max-width: 1024px;
     background: #FFF4E8;
     position: fixed;
     top: 1em;
@@ -141,9 +141,19 @@ h1 {
     -moz-box-shadow: 5px 5px 4px 0px #888;
     -webkit-box-shadow: 5px 5px 4px 0px #888;
     box-shadow: 5px 5px 4px 0px #888;
-    border: 1px solid #888;
+    /* border: 1px solid #888; */
     border-radius: 5px;
   }
+
+  .zoom-popup .image-count-display {
+    font-size: 2em;
+    padding: 0 10px;
+}
+
+.zoom-popup .snail-photo {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
 
 .previous-image-trigger, .next-image-trigger {
@@ -151,14 +161,14 @@ h1 {
     background-color: white;
     top: 0;
     height: 100%;
-    padding-top: 100px;
     z-index: 5;
     opacity: 0.6;
     user-select: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .zoom-popup .previous-image-trigger, .zoom-popup .next-image-trigger {
-    padding-top: 140px;
     width: 60px;
 }
 .zoom-popup .previous-image-trigger .material-icons, .zoom-popup .next-image-trigger .material-icons {
@@ -194,25 +204,10 @@ h1 {
 .popup-close .material-icons {
     font-size: 1.5em;
 }
-.popup-content {
-    padding: 10px;
-    white-space: nowrap;
-    overflow-x: auto;
-}
 
 .references {
     font-size: 0.7em;
     padding: 0.3em;
-}
-
-.no-list-items {
-    margin-bottom: 1em;
-}
-.details-compare-link {
-    font-size: 0.8em;
-    padding-left: 1em;
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .info-link-button {
