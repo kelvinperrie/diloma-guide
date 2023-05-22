@@ -197,6 +197,14 @@ var CrabModel = function(crab) {
 var PageModel = function() {
     var self = this;
     self.snailData = ko.observableArray();
+    self.snailZoomed = ko.observable();
+
+    self.openZoom = function(snail) {
+        self.snailZoomed(snail);
+    }
+    self.closeZoom = function() {
+        self.snailZoomed(null);
+    }
 
     // setup / load all data into our models
     self.initialize = function() {
