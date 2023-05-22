@@ -114,9 +114,32 @@ h1 {
 }
 
 
+.goodtoknow-container{
+    position: relative;
+    width: 463px;
+    margin-bottom: 1em;
+}
+.goodtoknow-title{
+    position: absolute;
+    left: 230px;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+}
+.goodtoknow-growthlines {
+    position:absolute;
+    left: 300px;
+    top: 60px;
+}
+.goodtoknow-sprialridges{
+    position:absolute;
+    left: 300px;
+    top: 130px;
+}
+
 .snail-container {
     display: inline-block;
-    margin: 0.3em 0.2em;
+    margin: 0.3em 0.5em;
     width: 300px;
     /* height: 500px; */
     vertical-align: top;
@@ -124,21 +147,24 @@ h1 {
     color: #37B;
     position: relative;
     /* border: 1px solid #AC3B61; */
-    border-radius: 5px;;
+    border-radius: 8px;;
 }
 
 .common-name {
     background-color: #007a84;
     color: #fff;
     padding: 0 5px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 }
 
 .snail-photo {
     max-width: 100%;
 }
-
+.detail-notes{
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
 .details-list {
     padding: 0.3em;
     font-size: 0.8em;
@@ -161,7 +187,7 @@ h1 {
     /* border: 1px solid #AC3B61; */
     border-radius: 5px;;
 }
-.crab-shadow {
+.snail-shadow {
     -moz-box-shadow:    5px 5px 4px 0px #888;
     -webkit-box-shadow: 5px 5px 4px 0px #888;
     box-shadow:         5px 5px 4px 0px #888;

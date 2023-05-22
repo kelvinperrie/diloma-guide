@@ -93,6 +93,7 @@ var SnailModel = function(snailData) {
     self.images = snailData.images;                                  
     self.natureWatchLink = snailData.natureWatchLink;                
     self.details = snailData.details;
+    self.notes = snailData.notes;
     self.currentImageIndex = ko.observable(0);                  
     self.references = snailData.references || [];                    
     

@@ -36,12 +36,17 @@
 
         <div class="row">
             <div class="col">
-                <img src="images/what-to-know.png" alt="info on spiral and growth lines on snail shells" />
+                <div class="goodtoknow-container">
+                    <img src="images/what-to-know.png" alt="info on spiral and growth lines on snail shells" />
+                    <div class="goodtoknow-title">Thing to know to help with identificaiton!</div>
+                    <div class="goodtoknow-growthlines">Growth lines go across the shell</div>
+                    <div class="goodtoknow-sprialridges">Spiral ridges go with the direction of the shell</div>
+                </div>
             </div>
         </div>
         <div class="row">
             <!-- ko foreach: snailData -->
-            <div class="snail-container">
+            <div class="snail-container snail-shadow">
                 <div class="common-name" data-bind="text:commonName"></div>
                 <div class="scientific-name" ><span data-bind="text:scientificName"></span></div>
                 <div class="image-container">
@@ -59,6 +64,9 @@
                     </div>
                 </div>
                 <div class="details-list">
+                    <div class="detail-notes" data-bind="text: notes">
+
+                    </div>
                     <ul>
                         <!-- ko foreach: details -->
                         <li>
@@ -95,11 +103,11 @@
                 </div>
                 Sources: 
                 <ul>
-                    <li>iNaturalist. Available from https://www.inaturalist.org. Accessed 28/04/2020.</li>
+                    <li>iNaturalist. Available from https://www.inaturalist.org. Accessed 14/04/2023.</li>
                     <!-- <li>McLay, C.L. (1988) Brachyura and crab-like anomura of New Zealand (pp22-392).  Leigh Laboratory Bulletin, 22. (1988).</li>
                     <li>Morton, J., Miller, M. (1973) The New Zealand Sea Shore (pp88-94). Collins, London 1973.</li>
                     <li>Wilkens, S. L., Ahyong, S. T (2015) Coastal Crabs a guide to the crabs of New Zealand Version 1, 2015, 10-49 NIWA https://niwa.co.nz/static/web/coastal_crabs_2015.pdf.</li> -->
-                    <li>Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 28/04/2020.</li>
+                    <li>Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023.</li>
                 </ul>
             </div>
         </footer>

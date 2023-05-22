@@ -11,11 +11,11 @@ var snailData = [
     {
         commonName : "Spotted Top Snail",
         scientificName : "Diloma aethiops",
+        notes: "The most common of the top snails - look for a black and white chequered pattern.",
         details : [
-            { text : "The most common of the top snails.", references : [] },
             { text : "Max height of 30mm.", references : [1] },
             { text : "Generally not a deep black, more blackish purple. Usually has a chequered pattern of white.", references : [] },
-            { text : "Spiral lines and growth lines are both obvious and make a cross hatch pattern over a lot of the shell.", references : [] },
+            { text : "Spiral lines and growth lines are both obvious and make a chequered or cross hatch pattern over a lot of the shell.", references : [] },
             { text : "Lives on rocky shores all through New Zealand and the only top snail found on exposed rocks. Can also be found under rocks.", references : [1] },
             { text : "Found at low, mid, and high tidal zones.", references : [] },
 
@@ -35,6 +35,7 @@ var snailData = [
     {
         commonName : "Bluish Top Shell",
         scientificName : "Diloma nigerrimum",
+        notes: "Look for a blue colour and hard-to-see spiral ridges and growth lines.",
         details : [
             { text : "Max height of 25mm", references : [1] },
             { text : "A very dark blue, often hard to tell apart from black, especially in photos.", references : [] },
@@ -56,6 +57,7 @@ var snailData = [
     {
         commonName : "Green-Banded Black Top Shell",
         scientificName : "Diloma zelandicum",
+        notes: "Look for noticeable spiral ridges and weak growth lines.",
         details : [
             { text : "Max height of 25mm", references : [1] },
             { text : "Black, can have a greenish tinge. Flip the snail upside-down to see a green edge to the shell opening.", references : [1] },
@@ -77,6 +79,7 @@ var snailData = [
     {
         commonName : "Knobbed Top Shell",
         scientificName : "Diloma bicanaliculatum",
+        notes: "Look for rows of bumps following the spiral ridges.",
         details : [
             { text : "Max height of 20mm", references : [1] },
             { text : "Grey or a dull black. Can have yellow/olive green in between the bumps and appear chequered", references : [1,3] },
@@ -100,6 +103,7 @@ var snailData = [
     {
         commonName : "Sparse-Spotted Black Top Shell",
         scientificName : "Diloma aridum",
+        notes: "Look for yellow or white speckles.",
         details : [
             { text : "Max height of 20mm", references : [1] },
             { text : "Black with yellow or white speckles that appear random and don't follow a pattern.", references : [] },
@@ -122,6 +126,7 @@ var snailData = [
     {
         commonName : "Mudflat Top Shell",
         scientificName : "Diloma subrostratum",
+        notes: "Look for yellow zig-zags, or a yellow lip around the opening.",
         details : [
             { text : "Max height of 25mm", references : [1] },
             { text : "Varies, can have a yellow lip around the opening and/or yellow zig-zag stripes or chequers.", references : [3] },
