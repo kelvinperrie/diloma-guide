@@ -14,9 +14,9 @@ var snailData = [
         notes: "The most common of the top snails - look for a black and white chequered pattern.",
         details : [
             { text : "Max height of 30mm.", references : [1] },
-            { text : "Generally not a deep black, more blackish purple. Usually has a chequered pattern of white.", references : [] },
+            { text : "A very dark purple that is almost black. Usually has a chequered pattern of white somewhere on the shell.", references : [] },
             { text : "Spiral lines and growth lines are both obvious and make a chequered or cross hatch pattern over a lot of the shell.", references : [] },
-            { text : "Lives on rocky shores all through New Zealand and the only top snail found on exposed rocks. Can also be found under rocks.", references : [1] },
+            { text : "Lives on rocky shores all through New Zealand and is the only top snail found on exposed rocks. Can also be found under rocks.", references : [1] },
             { text : "Found at low, mid, and high tidal zones.", references : [] },
 
         ],
@@ -63,7 +63,7 @@ var snailData = [
             { text : "Black, can have a greenish tinge. May have a green lip around the shell opening.", references : [1] },
             { text : "Spiral ridges are well developed. Growth lines often faded. ", references : [] },
             { text : "Lives on rocky shores all through New Zealand. ", references : [2] },
-            { text : "Found at what tide zone????. ", references : [] }
+            // { text : "Found at what tide zone????. ", references : [] }
         ],
         images : [ 
             { file : "green-banded1.jpg" },
@@ -107,7 +107,7 @@ var snailData = [
         details : [
             { text : "Max height of 20mm", references : [1] },
             { text : "Black with yellow or white speckles that appear random and don't follow a pattern.", references : [] },
-            { text : "A smooth shell without deep growth or spiral lines.", references : [] },
+            { text : "A smooth shell without deep growth lines or spiral ridges.", references : [] },
             { text : "Lives on rocky shores all through New Zealand. ", references : [2] },
             { text : "Found in the mid to high tidal zones. ", references : [1] }
         ],

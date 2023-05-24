@@ -86,7 +86,9 @@ h1 {
 }
 .detail-notes{
     font-weight: bold;
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-size: 1.1em;
 }
 .details-list {
     padding: 0.3em;
