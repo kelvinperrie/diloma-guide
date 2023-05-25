@@ -176,7 +176,7 @@ var snailData = [
             { text : "Max height of 30mm", references : [1] },
             { text : "A deep black.", references : [] },
             { text : "Pretty smooth - both spiral ridges and growth lines are not deep. The end of the spiral sits towards the back of the shell rather than in the center like the other snails listed here.", references : [] },
-            { text : "Lives in rocky areas in northern NZ (IS THIS TRUE??????).", references : [1] },
+            { text : "Lives in rocky areas in northern NZ (from the top of the south island up).", references : [1] },
             { text : "Found in the mid to high tidal zones.", references : [1] }
         ],
         images : [ 
