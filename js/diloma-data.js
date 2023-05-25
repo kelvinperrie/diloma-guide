@@ -38,7 +38,7 @@ var snailData = [
         notes: "Look for a blue colour and hard-to-see spiral ridges and growth lines.",
         details : [
             { text : "Max height of 25mm", references : [1] },
-            { text : "A very dark blue, often hard to tell apart from black, especially in photos.", references : [] },
+            { text : "A blue but often hard to tell apart from black, especially in photos.", references : [] },
             { text : "Spiral ridges often very faded. Growth lines are sometimes noticable. ", references : [2] },
             { text : "Lives on rocky shores (more on decaying bull-kelp than the rocks) all through New Zealand.", references : [1] },
             { text : "Found in the high tidal zone. ", references : [1] }
