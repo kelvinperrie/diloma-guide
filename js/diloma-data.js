@@ -40,7 +40,7 @@ var snailData = [
             { text : "Max height of 25mm", references : [1] },
             { text : "A very dark blue, often hard to tell apart from black, especially in photos.", references : [] },
             { text : "Spiral ridges often very faded. Growth lines are sometimes noticable. ", references : [2] },
-            { text : "Lives on rocky shores all through New Zealand.", references : [1] },
+            { text : "Lives on rocky shores (more on decaying bull-kelp than the rocks) all through New Zealand.", references : [1] },
             { text : "Found in the high tidal zone. ", references : [1] }
         ],
         images : [ 
@@ -106,7 +106,7 @@ var snailData = [
         notes: "Look for yellow or white speckles.",
         details : [
             { text : "Max height of 20mm", references : [1] },
-            { text : "Black with yellow or white speckles that appear random and don't follow a pattern.", references : [] },
+            { text : "Black with yellow or white speckles that appear random and don't follow a pattern. You may need to check the underside of the shell to see any speckles.", references : [] },
             { text : "A smooth shell without deep growth lines or spiral ridges.", references : [] },
             { text : "Lives on rocky shores all through New Zealand. ", references : [2] },
             { text : "Found in the mid to high tidal zones. ", references : [1] }
