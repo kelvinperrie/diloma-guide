@@ -14,9 +14,9 @@ var snailData = [
         notes: "The most common of the top snails - look for a black and white chequered pattern.",
         details : [
             { text : "Max height of 30mm.", references : [1] },
-            { text : "A very dark purple that is almost black. Usually has a chequered pattern of white somewhere on the shell.", references : [] },
+            { text : "Black or a very dark purple that is almost black - can have a yellow tinge. Usually has a chequered pattern of white somewhere on the shell.", references : [] },
             { text : "Spiral lines and growth lines are both obvious and make a chequered or cross hatch pattern over a lot of the shell.", references : [] },
-            { text : "Lives on rocky shores all through New Zealand and is the only top snail found on exposed rocks. Can also be found under rocks.", references : [1] },
+            { text : "Lives on rocky shores all through New Zealand. Can also be found under rocks.", references : [1] },
             { text : "Found at low, mid, and high tidal zones.", references : [] },
 
         ],
@@ -35,7 +35,7 @@ var snailData = [
     {
         commonName : "Bluish Top Shell",
         scientificName : "Diloma nigerrimum",
-        notes: "Look for a blue colour and hard-to-see spiral ridges and growth lines.",
+        notes: "Look for a blue colour and hard-to-see spiral ridges and growth lines. Very hard to tell apart from the Green-Banded Black Top Shell.",
         details : [
             { text : "Max height of 25mm", references : [1] },
             { text : "A blue but often hard to tell apart from black, especially in photos.", references : [] },
@@ -57,7 +57,7 @@ var snailData = [
     {
         commonName : "Green-Banded Black Top Shell",
         scientificName : "Diloma zelandicum",
-        notes: "Look for noticeable spiral ridges and weak growth lines.",
+        notes: "Look for noticeable spiral ridges and weak growth lines. Very hard to tell apart from the Bluish Top Shell.",
         details : [
             { text : "Max height of 25mm", references : [1] },
             { text : "Black, can have a greenish tinge. May have a green lip around the shell opening.", references : [1] },
@@ -153,7 +153,7 @@ var snailData = [
         notes: "They grow a lot larger than other snails listed here. Look for the green coloured 'trap-door' blocking the opening.",
         details : [
             { text : "Max height of 70mm", references : [1] },
-            { text : "Black, may have dark green showing through the black. The opening is blocked by a green/white peice of shell.", references : [] },
+            { text : "A dark green that at first glance may appear black. The opening is blocked by a green and white peice of shell.", references : [] },
             { text : "Young snails can have a couple of really strong spiral ridges.", references : [] },
             { text : "Lives across a wide range of areas (rocky and softer) all throughout NZ.", references : [1] },
             { text : "Found in the low to mid tidal zones.", references : [1] }
