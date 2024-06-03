@@ -188,5 +188,45 @@ var snailData = [
         references : [
             { id: 1, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 14/04/2023" }
         ]
+    },
+    {
+        commonName : "Diloma coracinum",
+        scientificName : "Diloma coracinum",
+        notes: "A really small snail. Very similar to Micrelenchus tessellatus, flip it over and confirm it doesn't have a hole between the spirals (second photo).",
+        details : [
+            { text : "Max height of 9mm.", references : [1] },
+            { text : "Variable; sometimes just black (or purple black), sometimes with spotted yellow.", references : [1] },
+            { text : "No noticable spiral or growth lines.", references : [] },
+            { text : "Lives on exposed coasts all around NZ.", references : [1] },
+            { text : "Found around the low tide line, often on rocks surrounded in sand - it seems to like living where the sand meets the rock.", references : [1] }
+        ],
+        images : [ 
+            { file : "coracinum1.jpg" },
+            { file : "coracinum2.jpg" },
+            { file : "coracinum3.jpg" },
+            { file : "coracinum4.jpg" }
+        ],
+        references : [
+            { id: 1, detail: "Wikipedia. Available from https://en.wikipedia.org, Wikimedia Foundation. Accessed 03/06/2024" }
+        ]
+    },
+    {
+        commonName : "Micrelenchus tessellatus",
+        scientificName : "Micrelenchus tessellatus",
+        notes: "A really small snail. Very similar to Diloma coracinum, flip it over and confirm it has a hole between the spirals (second photo).",
+        details : [
+            { text : "Unknown max size, but around 9mm.", references : [] },
+            { text : "Very variable; can have a black, yellow, green, or red base, spotted/checkered with black, yellow, green, or red.", references : [] },
+            { text : "No noticable spiral or growth lines.", references : [] },
+            { text : "Unsure on distribution - possibly all around NZ.", references : [] },
+            { text : "Found around low tide, often on seaweed or rocks exposed by the tide.", references : [] }
+        ],
+        images : [ 
+            { file : "tessellatus1.jpg" },
+            { file : "tessellatus2.jpg" },
+            { file : "tessellatus3.jpg" },
+            { file : "tessellatus4.jpg" }
+        ],
+        references : []
     }
 ]
